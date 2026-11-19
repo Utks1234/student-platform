@@ -135,19 +135,17 @@ app.use((err, req, res, next) => {
   });
 });
 
-// Connect DB then start server (Render / local standalone execution)
+// Start server immediately & connect DB asynchronously (Render / local standalone execution)
 if (!process.env.VERCEL) {
   const PORT = process.env.PORT || 5001;
 
-  connectDB()
-    .then(() => {
-      app.listen(PORT, () => {
-        console.log(`✅ LearnX Platform running on port ${PORT}`);
-      });
-    })
-    .catch((err) => {
-      console.error("Failed to connect to database:", err.message);
-    });
+  app.listen(PORT, () => {
+    console.log(`✅ LearnX Platform running on port ${PORT}`);
+  });
+
+  connectDB().catch((err) => {
+    console.warn(`⚠️ Database note (${err.message}). Set MONGO_URI in backend/.env to connect MongoDB.`);
+  });
 }
 
 // Export app for serverless or testing
