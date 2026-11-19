@@ -339,7 +339,7 @@ const Dashboard = () => {
                 {/* Title & Greeting */}
                 <div>
                   <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white tracking-tight leading-tight">
-                    {getGreeting()}, <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-violet-300 to-purple-200">{user?.name?.split(" ")[0] || "Vijay"}</span>! 👋
+                    {getGreeting()}, <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-violet-300 to-purple-200">{user?.name?.split(" ")[0] || "Utkarsh"}</span>! 👋
                   </h1>
                   <p className="text-xs sm:text-sm font-medium text-slate-300 mt-2 leading-relaxed">
                     Your personalized CSE learning command center. Track mastery, practice coding algorithms, and accelerate interview readiness.

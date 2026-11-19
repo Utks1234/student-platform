@@ -249,11 +249,11 @@ export const Sidebar = ({ isOpen, onClose }) => {
         <div className="p-3 border-t border-slate-100 bg-slate-50/60">
           <div className="flex items-center gap-2.5 p-2 rounded-xl bg-white border border-slate-200/80 shadow-2xs">
             <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-indigo-600 to-violet-600 flex items-center justify-center text-white font-black text-xs shrink-0 shadow-xs">
-              {user?.name?.[0]?.toUpperCase() || "V"}
+              {user?.name?.[0]?.toUpperCase() || "U"}
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-xs font-bold text-slate-900 truncate leading-none">
-                {user?.name || "Vijay Singh"}
+                {user?.name || "Utkarsh Vishwakarma"}
               </p>
               <div className="flex items-center gap-1 mt-1">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block" />

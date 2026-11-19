@@ -178,7 +178,7 @@ export const TopHeader = ({ onMenuClick }) => {
             />
             <div className="hidden sm:block text-left">
               <p className="text-xs font-bold text-slate-800 leading-none">
-                {user?.name?.split(" ")[0] || "Vijay"}
+                {user?.name?.split(" ")[0] || "Utkarsh"}
               </p>
               <p className="text-[10px] font-semibold text-slate-400 leading-none mt-1">
                 CSE Scholar

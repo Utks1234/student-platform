@@ -11,10 +11,10 @@ LearnX is an AI-powered diagnostic, assessment, and career acceleration platform
 
 Collaborators and friends can launch and test the full **LearnX** platform directly in their web browser with **1 click** via GitHub Codespaces:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=vijaysingh0022/student-platform)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=Utks1234/student-platform)
 
 > **Direct Launch Link:**
-> 👉 **[Click here to open LearnX in Cloud Browser](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=vijaysingh0022/student-platform)**
+> 👉 **[Click here to open LearnX in Cloud Browser](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=Utks1234/student-platform)**
 >
 > *GitHub Codespaces spins up a full cloud environment, installs dependencies, starts both frontend & backend servers, and opens the running application in your browser automatically — with all 92 placement questions seeded and demo accounts ready.*
 
@@ -24,7 +24,7 @@ Collaborators and friends can launch and test the full **LearnX** platform direc
 
 The platform is production-deployed on **Vercel** with a serverless Node.js + Express backend and a Vite/React frontend served as a CDN-optimized static site.
 
-> 🔗 **[View Live on Vercel →](https://student-platform-vijaysingh0022.vercel.app)** *(deploy in progress — link active after first push)*
+> 🔗 **[View Live on Vercel →](https://student-platform-utks1234.vercel.app)** *(deploy in progress — link active after first push)*
 
 **Architecture on Vercel:**
 - **Frontend** — React SPA built by Vite, served from Vercel's global CDN edge network
@@ -160,7 +160,7 @@ student-platform/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/vijaysingh0022/student-platform.git
+git clone https://github.com/Utks1234/student-platform.git
 cd student-platform
 
 # 2. Install all dependencies (backend + frontend)
