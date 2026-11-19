@@ -24,7 +24,7 @@ Collaborators and friends can launch and test the full **LearnX** platform direc
 
 The platform is production-deployed on **Vercel** with a serverless Node.js + Express backend and a Vite/React frontend served as a CDN-optimized static site.
 
-> 🔗 **[View Live on Vercel →](https://student-platform-utks1234.vercel.app)** *(deploy in progress — link active after first push)*
+> 🔗 **[View Live on Vercel →](https://student-platform-rosy-theta.vercel.app)**
 
 **Architecture on Vercel:**
 - **Frontend** — React SPA built by Vite, served from Vercel's global CDN edge network
